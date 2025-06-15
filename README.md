@@ -1,5 +1,34 @@
-# Vue 3 + TypeScript + Vite
+<!-- @format -->
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# TypeScript Todo List
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+一個使用 Vue 3、TypeScript 和 Tailwind CSS 構建的簡單待辦事項應用程式。做好玩、拿來熟悉 TS
+
+## 功能
+
+- 新增待辦事項
+- 標記待辦事項為已完成
+- 刪除待辦事項
+- 顯示完成進度條
+- 本地存儲功能 (localStorage)
+- 響應式設計
+
+## 技術棧
+
+- Vue 3
+- TypeScript
+- Vite
+- Tailwind CSS v4
+
+## 專案結構
+
+```
+/src
+  /components
+    - TodoItem.vue    # 單個待辦事項組件
+  /types
+    - todo.ts         # Todo 介面定義
+  - App.vue           # 主應用組件
+  - main.ts           # 應用入口
+  - style.css         # 全局樣式
+```
